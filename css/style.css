@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-List{
+    margin-top: 5px;
+    margin-left: 5%;
+    width: 65%;
+    text-align: left;
+}
+
+.nav-List img{
+    width: 5%;
+    border: 2px solid white;
+    border-radius: 90px;
+}
+.navbar{
+    display: flex;                                                                           ;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+}
+
+.rightnav{
+    width: 35%;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightnav li{
+    padding: 1px 14px;
+    list-style: none;
+}
+
+.rightnav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.rightnav li a:hover{
+    text-decoration: none;
+    color:blue;
+    }
+
+.background{
+    background: rgba(0,0,0,0.6) url('../img/karnali.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firsthalf{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf{
+    width: 30%;
+    
+}
+
+.secondhalf img{
+    width: 50%;
+    border: 3px solid white;
+    border-radius: 125px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 40px;
+    text-align: center;
+}
+
+.text-small{
+    font-size: 20px;
+    text-align: center;
+}
+
+.adsbar{
+    background-color: blueviolet;
+    float: right;
+    width: 20%;
+    height: auto;
+    border: 1px solid blue;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.adsbar p{
+    padding: 15px 10px;
+}
+
+.secright{
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.secrightmain{
+    width: 80%;
+    height: auto;
+}
+
+.top{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.top h1{
+    font-size: 35px;
+    color: green;
+    padding-top: 15px;
+}
+
+.top h2{
+    font-size: 20px;
+    color: green;
+}
+
+.midle{
+    display: flex;
+    height: auto;
+}
+
+.midleleft{
+    width: 70%;
+    height: auto;
+}
+
+.midleleft h3{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.midleleft p{
+    padding: 10px 10px;
+}
+
+.midle img{
+    width: 30%;
+    height: auto;
+}
+
+.bottom{
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+}
+
+.bottom h3{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bottom p{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.mainfooter{
+    background-color: gray;
+    height: 250px;
+    text-align: center;
+}
+
+.footerleft{
+    width: 50%;
+    float:left;
+    font-size: 30px;
+}
+
+.footerleft li{
+    list-style: none;
+    text-align: left;
+    margin-left: 35%;
+
+}
+
+.footerleft li a{
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+.footerleft li a:hover{
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+.footerright{
+    width: 50%;
+    float: right;
+    font-size: 30px;
+}
+
+.footerright li{
+    list-style: none;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: 10px;
+
+}
+
+.footerright li a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.footerright li a:hover{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+
+.line{
+    width: 35px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+@media screen and (max-width:720px) {
+    .navbar{
+        flex-direction: column;
+        height: 260px;
+    }
+
+    .rightnav{
+        width: 100%;
+        padding: 0%;
+        flex-direction: column;
+    }
+
+    .rightnav li{
+        padding: 0%;
+        margin-top: 25px;
+    }
+    .nav-List{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .firstsection{
+        height: 90vh;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 90%;
+
+    }
+
+    .firsthalf{
+    
+    }
+    .secondhalf{
+    
+    }
+
+    .text-big{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .text-small{
+        font-size: 12px;
+        text-align: center;
+    }
+        
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        height: 50px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .adsbar{
+        background-color: blueviolet;
+        width: 100%;
+        height: auto;
+        border: 1px solid blue;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .adsbar p{
+        padding: 15px 10px;
+    }
+    
+    .secright{
+        flex-direction: column-reverse;
+        height: auto;
+        width: 100%;
+    }
+    
+    .secrightmain{
+        width: 100%;
+        height: auto;
+    }
+    
+    .top{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    
+    .top h1{
+        font-size: 35px;
+        padding-top: 15px;
+    }
+    
+    .top h2{
+        font-size: 20px;
+        color: green;
+    }
+    
+    .midle{
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .midleleft{
+        width: 100%;
+        height: auto;
+    }
+    
+    .midleleft h3{
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .midleleft p{
+        padding: 10px 10px;
+    }
+    
+    .midle img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .bottom{
+        width: 100%;
+        height: auto;
+        padding: 0px 0px;
+    }
+    
+    .bottom h3{
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .bottom p{
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+
+    .mainfooter{
+        height: 390px;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    .footerleft{
+        float: none;
+        width: 100%;
+        height: 170px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footerleft li{
+        margin-left: 0%;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footerleft li a{
+        font-size: 15px;
+    }
+
+    .footerright{
+        float: none;
+        width: 100%;
+        height: 220px;
+        text-align: center;
+        justify-content: center;
+    }
+    .footerright li{
+        margin-left: 0%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footerright li a{
+        font-size: 15px;
+    }
+}
