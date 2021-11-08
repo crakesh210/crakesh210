@@ -163,6 +163,7 @@ html{
 }
 
 .midle img{
+    padding: 5px 5px;
     width: 30%;
     height: auto;
 }
