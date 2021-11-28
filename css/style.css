@@ -154,18 +154,21 @@ html{
 }
 
 .midleleft h3{
+    font-size: 35px;
     text-align: center;
     padding-top: 10px;
 }
 
 .midleleft p{
+    font-size: 22px;
     padding: 10px 10px;
 }
 
 .midle img{
-    padding: 5px 5px;
+    padding: 10px 5px;
     width: 30%;
-    height: auto;
+    height: 200px;
+    margin-top: 40px;
 }
 
 .bottom{
@@ -175,11 +178,13 @@ html{
 }
 
 .bottom h3{
+    font-size: 35px;
     text-align: center;
     padding-top: 10px;
 }
 
 .bottom p{
+    font-size: 22px;
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
@@ -381,6 +386,8 @@ html{
     }
     
     .midle img{
+        padding: 0px 1px;
+        margin: auto;
         width: 100%;
         height: auto;
     }
