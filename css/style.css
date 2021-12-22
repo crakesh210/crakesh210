@@ -191,59 +191,29 @@ html{
     padding-bottom: 15px;
 }
 
-.mainfooter{
+.foot{
+    width: 100%;
+    height: 60px;
     background-color: gray;
-    height: 250px;
     text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
-.footerleft{
-    width: 50%;
-    float:left;
-    font-size: 30px;
-}
-
-.footerleft li{
+.foot li{
     list-style: none;
-    text-align: left;
-    margin-left: 35%;
-
+    width: 30%;
+    
 }
 
-.footerleft li a{
+.foot li a{
     text-decoration: none;
-    font-size: 30px;
-
+    margin:7px 10px ;
 }
 
-.footerleft li a:hover{
-    text-decoration: none;
-    font-size: 30px;
-
-}
-
-.footerright{
-    width: 50%;
-    float: right;
-    font-size: 30px;
-}
-
-.footerright li{
-    list-style: none;
-    text-align: left;
-    margin-left: 35%;
-    margin-top: 10px;
-
-}
-
-.footerright li a{
-    text-decoration: none;
-    font-size: 25px;
-}
-
-.footerright li a:hover{
-    text-decoration: none;
-    font-size: 25px;
+.foot li a img{
+    width: 55%;
+    border-radius: 50%;
 }
 
 .burger{
@@ -410,45 +380,28 @@ html{
         padding-bottom: 15px;
     }
 
-    .mainfooter{
-        height: 390px;
+    .foot{
+        width: 100%;
+        height: 60px;
+        background-color: gray;
         text-align: center;
         justify-content: center;
+        display: flex;
+    }
     
+    .foot li{
+        list-style: none;
+        width: 90%;
+        
     }
-    .footerleft{
-        float: none;
-        width: 100%;
-        height: 170px;
-        text-align: center;
-        justify-content: center;
+    
+    .foot li a{
+        text-decoration: none;
+        margin:12px 10px ;
     }
-
-    .footerleft li{
-        margin-left: 0%;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .footerleft li a{
-        font-size: 15px;
-    }
-
-    .footerright{
-        float: none;
-        width: 100%;
-        height: 220px;
-        text-align: center;
-        justify-content: center;
-    }
-    .footerright li{
-        margin-left: 0%;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .footerright li a{
-        font-size: 15px;
+    
+    .foot li a img{
+        width: 55%;
+        border-radius: 50%;
     }
 }
